@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fiksi1" />
+
+    <TextView
+        android:id="@+id/bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:textColor="@color/bottom_nav_item_selector"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="tes" />
+
+</LinearLayout>
